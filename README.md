@@ -1,9 +1,15 @@
-# 项目说明
+# Welcome to react-templates 👋
+[![Version](https://img.shields.io/npm/v/react-starter.svg)](https://www.npmjs.com/package/react-templates)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/SunXingZ/react-templates/blob/master/README.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-本项目技术栈均使用react&react-natve相关技术，可作为前端开发工作中新项目的模版项目使用。项目共分为五个分支，涵盖了常见的前端项目类型，如管理系统项目(admin分支和single-spa-admin分支)、移动web端项目(webapp分支)，APP项目(native-bottom-tabs分支和native-drawer分支)。同时每个模版都内置了常用工具库函数以及特定平台的处理，如在webapp模版中加入了rem布局的基础库、在APP模版中加入了消息通知和热更新等基础功能。
+> Some template projects of react technology stack
 
-# 分支说明
+## 项目说明
 
+本项目技术栈均使用react&react-natve相关技术，可作为前端开发工作中新项目的模版项目使用。项目共分为五个分支(master分支除外)，涵盖了常见的前端项目类型，如管理系统项目(admin分支和single-spa-admin分支)、移动web端项目(webapp分支)，APP项目(native-bottom-tabs分支和native-drawer分支)。同时每个模版都内置了常用工具库函数以及特定平台的处理，如在webapp模版中加入了rem布局的基础库、在APP模版中加入了消息通知和热更新等基础功能。
+
+## 分支说明
 
 ### 一、admin分支
 
@@ -25,3 +31,31 @@
 ### 五、native-drawer分支
 
 分支介绍：该分支模版是基于react-native、react-navigation、redux、native-base、axios等技术栈实现的抽屉式布局的APP模版项目
+
+## 安装
+
+```sh
+npm install -g react-starter
+```
+
+## 用法
+
+```sh
+react-cli init or rc init
+```
+
+## 作者
+
+👤 **sunxingzhe**
+
+* Github: [@SunXingZ](https://github.com/SunXingZ)
+
+## 🤝 贡献
+
+欢迎提出建议和贡献代码！
+
+Feel free to check [issues page](https://github.com/SunXingZ/react-templates/issues). 
+
+## 支持一下
+
+如果你觉得这个项目对你有帮助，记得点一下⭐️哦!
