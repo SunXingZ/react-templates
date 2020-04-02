@@ -16,8 +16,9 @@ const CustomHeader = (props) => {
   if (leftComponent == undefined) {
     if (canGoBack) {
       leftComponent = {
-        icon: "arrow-back",
+        icon: "ios-arrow-back",
         color: "#ffffff",
+        type: "ionicon",
         onPress: navigation.goBack
       }
     }
