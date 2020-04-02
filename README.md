@@ -11,28 +11,28 @@
 
 ## 分支说明
 
-### 一、admin分支
+### 一、[admin分支](https://github.com/SunXingZ/react-templates/tree/admin)
 
 分支介绍：该分支模版是基于react、react-router-dom、redux、antd、axios等技术栈实现的管理系统模版项目
 
 
-### 二、single-spa-admin分支
+### 二、[single-spa-admin分支](https://github.com/SunXingZ/react-templates/tree/single-spa-admin)
 
 分支介绍：该分支模版是在admin分支的基础上加入了single-spa实现的微前端架构的管理系统模版项目
 
-### 三、webapp分支
+### 三、[webapp分支](https://github.com/SunXingZ/react-templates/tree/webapp)
 
 分支介绍：该分支模版是基于react、react-router-dom、redux、antd-mobile、axios等技术栈实现的移动web端模版项目
 
-### 四、native-bottom-tabs分支
+### 四、[native-bottom-tabs分支](https://github.com/SunXingZ/react-templates/tree/native-bottom-tabs)
 
 分支介绍：该分支模版是基于react-native、react-navigation、redux、native-base、axios等技术栈实现的底部tabs布局的APP模版项目
 
-模版预览：[![drawer_template_img1](https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/31585803617_.pic.jpg)](https://github.com/SunXingZ/react-templates/tree/native-drawer)
-[![drawer_template_img2](https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/41585803618_.pic.jpg)](https://github.com/SunXingZ/react-templates/tree/native-drawer)
-[![drawer_template_img3](https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/51585803618_.pic.jpg)](https://github.com/SunXingZ/react-templates/tree/native-drawer)
+模版预览：[![tabs_template_img1](https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/31585803617_.pic.jpg)](https://github.com/SunXingZ/react-templates/tree/native-bottom-tabs)
+[![tabs_template_img2](https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/41585803618_.pic.jpg)](https://github.com/SunXingZ/react-templates/tree/native-bottom-tabs)
+[![tabs_template_img3](https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/51585803618_.pic.jpg)](https://github.com/SunXingZ/react-templates/tree/native-bottom-tabs)
 
-### 五、native-drawer分支
+### 五、[native-drawer分支](https://github.com/SunXingZ/react-templates/tree/native-drawer)
 
 分支介绍：该分支模版是基于react-native、react-native-elements、react-navigation、redux、axios等技术栈实现的抽屉式布局的APP模版项目
 
