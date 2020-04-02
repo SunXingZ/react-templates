@@ -28,6 +28,10 @@
 
 分支介绍：该分支模版是基于react-native、react-navigation、redux、native-base、axios等技术栈实现的底部tabs布局的APP模版项目
 
+模版预览：[![drawer_template_img1](https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/31585803617_.pic.jpg)](https://github.com/SunXingZ/react-templates/tree/native-drawer)
+[![drawer_template_img2](https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/41585803618_.pic.jpg)](https://github.com/SunXingZ/react-templates/tree/native-drawer)
+[![drawer_template_img3](https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/51585803618_.pic.jpg)](https://github.com/SunXingZ/react-templates/tree/native-drawer)
+
 ### 五、native-drawer分支
 
 分支介绍：该分支模版是基于react-native、react-native-elements、react-navigation、redux、axios等技术栈实现的抽屉式布局的APP模版项目
