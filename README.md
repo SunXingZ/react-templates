@@ -7,7 +7,7 @@
 
 ## 项目说明
 
-本项目技术栈均使用react&react-natve相关技术，可作为前端开发工作中新项目的模版项目使用。项目共分为五个分支(master分支除外)，涵盖了常见的前端项目类型，如管理系统项目(admin分支和single-spa-admin分支)、移动web端项目(webapp分支)，APP项目(native-bottom-tabs分支和native-drawer分支)。同时每个模版都内置了常用工具库函数以及特定平台的处理，如在webapp模版中加入了rem布局的基础库、在APP模版中加入了消息通知和热更新等基础功能。
+本项目技术栈均使用react&react-natve相关技术，可作为前端开发工作中新项目的模版项目使用。项目共分为五个分支(master分支除外)，涵盖了常见的前端项目类型，如管理系统项目(admin分支和single-spa-admin分支)、移动web端项目(webapp分支)，APP项目(native-bottom-tabs分支和native-drawer分支)。同时每个模版内置了常用工具库函数以及特定平台的处理，详情请切换到对应分支查看。
 
 ## 分支说明
 
@@ -26,7 +26,7 @@
 
 ### 四、[native-bottom-tabs分支](https://github.com/SunXingZ/react-templates/tree/native-bottom-tabs)
 
-分支介绍：该分支模版是基于react-native、react-navigation、redux、native-base、axios等技术栈实现的底部tabs布局的APP模版项目
+分支介绍：该分支模版是基于react-native、react-native-elements、react-navigation、redux、axios等技术栈实现的底部tabs布局的APP模版项目
 
 模版预览：
 <img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/31585803617_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/41585803618_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/51585803618_.pic.jpg" width="30%">
