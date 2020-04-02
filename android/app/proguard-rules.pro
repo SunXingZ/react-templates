@@ -8,3 +8,14 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Add any project specific keep options here:
+-dontwarn com.igexin.**
+-keep class com.igexin.**{*;}
+-keep class org.json.** { *; }
+
+-keep class cn.jiguang.** { *; }
+-keep class android.support.** { *; }
+-keep class androidx.** { *; }
+-keep class com.google.android.** { *; }
+
+-keep class android.support.v4.app.NotificationCompat { *; }
+-keep class android.support.v4.app.NotificationCompat$Builder { *; }

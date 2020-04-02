@@ -121,6 +121,9 @@ def enableHermes = project.ext.react.get("enableHermes", false);
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -133,6 +136,29 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86_64"
+        }
+        manifestPlaceholders = [
+            GETUI_APP_ID : "",
+            GETUI_APP_KEY : "",
+            GETUI_APP_SECRET : "",
+
+            MEIZU_APP_ID    : "",
+            MEIZU_APP_KEY   : "",
+
+            HUAWEI_APP_ID   : "",
+
+            XIAOMI_APP_ID   : "",
+            XIAOMI_APP_KEY  : "",
+
+            OPPO_APP_KEY    : "",
+            OPPO_APP_SECRET : "",
+
+            JPUSH_APPKEY : "",
+            JPUSH_CHANNEL : "",
+        ]
     }
     splits {
         abi {
@@ -143,6 +169,14 @@ android {
         }
     }
     signingConfigs {
+        release {
+            if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
+                storeFile file(MYAPP_RELEASE_STORE_FILE)
+                storePassword MYAPP_RELEASE_STORE_PASSWORD
+                keyAlias MYAPP_RELEASE_KEY_ALIAS
+                keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            }
+        }
         debug {
             storeFile file('debug.keystore')
             storePassword 'android'
@@ -152,14 +186,24 @@ android {
     }
     buildTypes {
         debug {
+            debuggable true
             signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "tabs-template-debug.apk"
+                }
+            }
         }
         release {
-            // Caution! In production, you need to generate your own keystore file.
-            // see https://facebook.github.io/react-native/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "tabs-template-release.apk"
+                }
+            }
         }
     }
     // applicationVariants are e.g. debug, release
@@ -180,6 +224,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'com.android.support:multidex:+'
+    implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02'
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
     if (enableHermes) {
