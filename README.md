@@ -30,7 +30,11 @@
 
 ### 五、native-drawer分支
 
-分支介绍：该分支模版是基于react-native、react-navigation、redux、native-base、axios等技术栈实现的抽屉式布局的APP模版项目
+分支介绍：该分支模版是基于react-native、react-native-elements、react-navigation、redux、axios等技术栈实现的抽屉式布局的APP模版项目
+
+模版预览：[![Version](https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/31585750245_.pic.jpg)](https://www.npmjs.com/package/react-templates)
+[![Documentation](https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/41585750245_.pic.jpg)](https://github.com/SunXingZ/react-templates/blob/master/README.md)
+[![License: MIT](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=702257389,1274025419&fm=27&gp=0.jpg)](#)
 
 ## 安装
 
