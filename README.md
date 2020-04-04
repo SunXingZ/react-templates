@@ -24,6 +24,9 @@
 
 分支介绍：该分支模版是基于react、react-router-dom、redux、antd-mobile、axios等技术栈实现的移动web端模版项目
 
+模版预览：
+<img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/home.png" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/mine.png" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/login.png" width="30%">
+
 ### 四、[native-bottom-tabs分支](https://github.com/SunXingZ/react-templates/tree/native-bottom-tabs)
 
 分支介绍：该分支模版是基于react-native、react-native-elements、react-navigation、redux、axios等技术栈实现的底部tabs布局的APP模版项目
