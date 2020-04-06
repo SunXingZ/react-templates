@@ -1,6 +1,6 @@
 {
   "name": "drawer",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -23,6 +23,7 @@
     "blueimp-md5": "^2.13.0",
     "buffer": "^5.5.0",
     "events": "^3.1.0",
+    "prop-types": "^15.7.2",
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-device-info": "^5.5.4",
@@ -48,6 +49,7 @@
     "eslint": "^6.8.0",
     "jest": "^25.2.4",
     "metro-react-native-babel-preset": "^0.59.0",
+    "mockjs": "^1.1.0",
     "react-test-renderer": "16.9.0"
   },
   "jest": {
