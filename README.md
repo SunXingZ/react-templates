@@ -10,18 +10,18 @@
 ## 项目结构
 
 ```
-├── LICENSE                             # LICENSE
-├── README.md                           # README.md
-├── config-overrides.js                 # webpack配置文件
-├── package.json                        # package.json
-├── public                              # 
+├── LICENSE
+├── README.md
+├── config-overrides.js
+├── package.json
+├── public
 │   ├── favicon.ico
 │   ├── index.html
 │   ├── manifest.json
 │   └── robots.txt
-├── src                                 # 开发目录
-│   ├── App.js                          # 
-│   ├── App.less                        # 
+├── src
+│   ├── App.js
+│   ├── App.less
 │   ├── App.test.js
 │   ├── assets                          # 资源目录
 │   ├── components                      # 公共业务组件目录
@@ -66,7 +66,3 @@ yarn run start
 ## 支持一下
 
 如果你觉得这个项目对你有帮助，记得点一下⭐️哦!
-
-<a href="https://www.patreon.com/孙行者">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
