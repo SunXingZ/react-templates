@@ -1,68 +1,72 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to webapp-template 👋
+[![Build With antd-mobile](https://img.shields.io/badge/build-antd--mobile-green.svg)](https://mobile.ant.design)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-## Available Scripts
+> 这是一个使用react + react-router-dom + antd mobile + redux + axios开发的移动端webapp模版项目
 
-In the project directory, you can run:
+## 模版预览
+<img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/home.png" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/mine.png" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/login.png" width="30%">
 
-### `yarn start`
+## 项目结构
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+├── LICENSE                             # LICENSE
+├── README.md                           # README.md
+├── config-overrides.js                 # webpack配置文件
+├── package.json                        # package.json
+├── public                              # 
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+├── src                                 # 开发目录
+│   ├── App.js                          # 
+│   ├── App.less                        # 
+│   ├── App.test.js
+│   ├── assets                          # 资源目录
+│   ├── components                      # 公共业务组件目录
+│   ├── configs                         # 应用配置目录
+│   ├── hooks                           # 自定义hooks
+│   ├── index.js                        # 入口文件
+│   ├── index.less
+│   ├── logo.svg
+│   ├── pages                           # 页面目录
+│   ├── redux                           # redux相关配置
+│   ├── requests                        # 接口服务
+│   ├── serviceWorker.js
+│   ├── setupTests.js
+│   └── utils                           # 工具库
+└── yarn.lock
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 使用方式
 
-### `yarn test`
+```
+下载项目
+git clone -b webapp https://github.com/SunXingZ/react-templates.git projectName
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+安装依赖
+cd projectName 
+yarn install
 
-### `yarn build`
+启动项目
+yarn run start
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 作者
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+👤 **孙行者**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Github: [@SunXingZ](https://github.com/SunXingZ)
 
-### `yarn eject`
+## 🤝 贡献
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+欢迎提出建议和贡献代码！<br />通过 Issue 报告 bug 或进行咨询。 [issues page](https://github.com/SunXingZ/react-templates/issues). 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 支持一下
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+如果你觉得这个项目对你有帮助，记得点一下⭐️哦!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<a href="https://www.patreon.com/孙行者">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>

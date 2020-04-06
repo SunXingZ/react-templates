@@ -1,12 +1,10 @@
 import React from 'react';
-import './App.css';
+import { AppRoutes } from "configs";
+import "configs/rem"; // 移动端布局适配rem
+import './App.less';
 
 function App() {
-  return (
-    <div className="App">
-      welcome to react webapp!
-    </div>
-  );
+  return <AppRoutes />;
 }
 
 export default App;

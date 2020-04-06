@@ -3,7 +3,8 @@ const {
   fixBabelImports,
   addWebpackAlias,
   addWebpackPlugin,
-  addLessLoader
+  addLessLoader,
+  setWebpackTarget
 } = require('customize-cra');
 const path = require('path');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
@@ -12,7 +13,12 @@ const packageJson = require('./package.json');
 
 const theme = packageJson.theme || {};
 
+const pathResolve = (dir) => {
+  return path.join(__dirname, dir);
+}
+
 module.exports = override(
+  setWebpackTarget('web'),
   fixBabelImports('import', { // 按需加载antd-mobile组件
     libraryName: 'antd-mobile',
     style: true
@@ -28,16 +34,15 @@ module.exports = override(
     clear: true
   })),
   addWebpackAlias({
-    '@': path.resolve(__dirname, 'src'),
-    'actions': path.resolve(__dirname, 'src/actions'),
-    'assets': path.resolve(__dirname, 'src/assets'),
-    'components': path.resolve(__dirname, 'src/components'),
-    'configs': path.resolve(__dirname, 'src/configs'),
-    'pages': path.resolve(__dirname, 'src/pages'),
-    'reducers': path.resolve(__dirname, 'src/reducers'),
-    'router': path.resolve(__dirname, 'src/router'),
-    'service': path.resolve(__dirname, 'src/service'),
-    'store': path.resolve(__dirname, 'src/store'),
-    'utils': path.resolve(__dirname, 'src/utils')
-  })
+    '@': pathResolve("src"),
+    'actions': pathResolve("./src/actions"),
+    'assets': pathResolve("./src/assets"),
+    'components': pathResolve("./src/components"),
+    'configs': pathResolve("./src/configs"),
+    'pages': pathResolve("./src/pages"),
+    'reducers': pathResolve("./src/reducers"),
+    'requests': pathResolve("./src/requests"),
+    'store': pathResolve("./src/store"),
+    'utils': pathResolve("./src/utils")
+  }),
 );
