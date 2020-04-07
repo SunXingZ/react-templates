@@ -1,13 +1,16 @@
 # Welcome to native-drawer 👋
+
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-> 这是一个使用react-native + react-navigation + react-native-elements + redux + axios开发的抽屉式布局的app模版项目
+> 这是一个使用 react-native + react-navigation + react-native-elements + redux + axios 开发的抽屉式布局的 app 模版项目
 
 ## 模版预览
+
 <img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/31585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/41585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/51585789781_.pic.jpg" width="30%">
 
 ## 项目结构
+
 ```
 ├── App.js
 ├── LICENSE
@@ -54,14 +57,14 @@
 1. 热更新服务
 2. 极光应用统计
 3. 极光消息推送
-4. mockjs测试数据
-5. 配置axios
-6. 集成redux
+4. mockjs 测试数据
+5. 配置 axios
+6. 集成 redux
 7. 全局配置主题风格
-8. native端和js异常处理
+8. native 端和 js 异常处理
 9. 基于抽屉式布局的路由配置
-10. AsyncStorage本地数据缓存
-...
+10. AsyncStorage 本地数据缓存
+11. prettier 统一代码风格并在提交代码前自动格式化 ...
 
 ## 使用方式
 
@@ -70,7 +73,7 @@
 git clone -b native-drawer https://github.com/SunXingZ/react-templates.git projectName
 
 2、安装依赖
-cd projectName 
+cd projectName
 yarn install
 
 3、(可选)重命名项目 newName 项目名称 bundleIdentifier 包名(android)
@@ -101,12 +104,13 @@ cd ios && grep -r advertisingIdentifier .
 
 👤 **孙行者**
 
-* Github: [@SunXingZ](https://github.com/SunXingZ)
+-   Github: [@SunXingZ](https://github.com/SunXingZ)
 
 ## 🤝 贡献
 
-欢迎提出建议和贡献代码！<br />通过 Issue 报告 bug 或进行咨询。 [issues page](https://github.com/SunXingZ/react-templates/issues). 
+欢迎提出建议和贡献代码！<br />通过 Issue 报告 bug 或进行咨询。
+[issues page](https://github.com/SunXingZ/react-templates/issues).
 
 ## 支持一下
 
-如果你觉得这个项目对你有帮助，记得点一下⭐️哦!
+如果你觉得这个项目对你有帮助，记得点一下 ⭐️ 哦!
