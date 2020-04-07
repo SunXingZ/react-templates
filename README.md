@@ -5,16 +5,20 @@
 
 ## 项目说明
 
-对于一个新的前端项目来说往往需要使用脚手架来创建一个项目，例如我们在开发react项目时会使用create-react-app来生成一个初始项目，开发react-native项目时会使用react-native-cli来创建一个项目。然后我们需要根据要配套使用的库或ui框架来安装对应的依赖，再经过一系列繁琐且重复性的配置和项目结构的规划才可以真正的进入开发。经过对一些react开发者进行调研后决定开发一套模版项目，一方面希望这个项目能提高我在平时工作中的开发效率，另一方面也希望能帮助到有同样需求的开发者。项目中的几个模版都是使用react/react-native技术栈开发，提供了合理的项目目录结构和常见的配置。项目共分为五个分支(master分支除外)，涵盖了常见的前端项目类型，如管理系统项目(admin分支和single-spa-admin分支)、移动web端项目(webapp分支)，APP项目(native-bottom-tabs分支和native-drawer分支)，详情请切换到对应分支查看。
+react-templates是一套基于react&react-native技术栈实现的前端模版项目，项目共分为五个分支(master分支除外)，涵盖了常见的前端项目类型，如管理系统项目(admin分支和single-spa-admin分支)、移动web端项目(webapp分支)，APP项目(native-bottom-tabs分支和native-drawer分支)。
+
+项目中的每个模版都是使用当前流行的技术栈，如react全家桶、react-native全家桶。如果你正打算学习react或react-native相关知识进行开发，或许这个项目能够给你一些帮助。如果你已经是一位老司机，那么这个项目可能会为你节省不少前期的准备工作。具体细节请继续阅读分支说明并查看相应分支的README。
+
+由于项目全面使用function component + react hooks编写，如果项目中的代码有什么不合理的地方或者书写错误，欢迎留言指正。如果你有什么功能需求或建议也欢迎在[issues page](https://github.com/SunXingZ/react-templates/issues)留言，我看到后会第一时间回复。
 
 ## 分支说明
 
-### 一、[admin分支](https://github.com/SunXingZ/react-templates/tree/admin)
+### 一、[admin分支(建设中)](https://github.com/SunXingZ/react-templates/tree/admin)
 
 分支介绍：基于react、react-router-dom、redux、antd、axios等技术栈实现的管理系统模版项目
 
 
-### 二、[single-spa-admin分支](https://github.com/SunXingZ/react-templates/tree/single-spa-admin)
+### 二、[single-spa-admin分支(研究中)](https://github.com/SunXingZ/react-templates/tree/single-spa-admin)
 
 分支介绍：在admin分支的基础上加入了single-spa实现的微前端架构的管理系统模版项目
 
@@ -38,6 +42,11 @@
 
 模版预览：
 <img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/31585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/41585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/51585789781_.pic.jpg" width="30%">
+
+## 未来计划
+1、开发配套脚手架，简化初始化工作
+2、增加使用typescript语言的模版
+...
 
 ## 作者
 
