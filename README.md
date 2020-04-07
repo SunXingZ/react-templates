@@ -56,14 +56,14 @@
 ## 使用方式
 
 ```
-下载项目
+1、下载项目
 git clone -b webapp https://github.com/SunXingZ/react-templates.git projectName
 
-安装依赖
+2、安装依赖
 cd projectName 
 yarn install
 
-启动项目
+3、启动项目
 yarn run start
 ```
 
