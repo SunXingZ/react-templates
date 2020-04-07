@@ -1,7 +1,4 @@
-import * as ReqConfigs from "./config";
-import * as ReqManager from "./request";
+import * as ReqConfigs from './config';
+import * as ReqManager from './request';
 
-export {
-  ReqConfigs,
-  ReqManager
-}
+export { ReqConfigs, ReqManager };

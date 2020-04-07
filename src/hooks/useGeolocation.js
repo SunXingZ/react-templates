@@ -1,34 +1,34 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 import Geolocation from '@react-native-community/geolocation';
 
 const useGeolocation = () => {
-  const [position, setPosition] = useState({});
+	const [position, setPosition] = useState({});
 
-  useEffect(() => {
-    let watchID = null;
+	useEffect(() => {
+		let watchID = null;
 
-    const onGetPositionSuccess = (val) => {
-      setPosition(val);
-    };
+		const onGetPositionSuccess = (val) => {
+			setPosition(val);
+		};
 
-    const onGetPositionError = () => { };
+		const onGetPositionError = () => {};
 
-    Geolocation.requestAuthorization();
+		Geolocation.requestAuthorization();
 
-    Geolocation.getCurrentPosition(onGetPositionSuccess, onGetPositionError, {
-      maximumAge: 0
-    });
+		Geolocation.getCurrentPosition(onGetPositionSuccess, onGetPositionError, {
+			maximumAge: 0
+		});
 
-    Geolocation.watchPosition(onGetPositionSuccess, onGetPositionError, {
-      maximumAge: 0
-    });
+		Geolocation.watchPosition(onGetPositionSuccess, onGetPositionError, {
+			maximumAge: 0
+		});
 
-    return () => {
-      Geolocation.clearWatch(watchID);
-    }
-  }, []);
+		return () => {
+			Geolocation.clearWatch(watchID);
+		};
+	}, []);
 
-  return position;
-}
+	return position;
+};
 
 export default useGeolocation;
