@@ -9,7 +9,7 @@ react-templates是一套基于react&react-native技术栈实现的前端模版�
 
 项目中的每个模版都是使用当前流行的技术栈，如react全家桶、react-native全家桶。如果你正打算学习react或react-native相关知识进行开发，或许这个项目能够给你一些帮助。如果你已经是一位老司机，那么这个项目可能会为你节省不少前期的准备工作。具体细节请继续阅读分支说明并查看相应分支的README。
 
-由于项目全面使用function component + react hooks编写，如果项目中的代码有什么不合理的地方或者书写错误，欢迎留言指正。如果你有什么功能需求或建议也欢迎在[issues page](https://github.com/SunXingZ/react-templates/issues)留言，我看到后会第一时间回复。
+由于项目全面使用function component + react hooks编写，如果项目中有什么不合理的地方或者代码书写错误，欢迎留言指正。如果你有什么功能需求或建议也欢迎在[issues page](https://github.com/SunXingZ/react-templates/issues)留言，我看到后会第一时间回复。
 
 ## 分支说明
 
@@ -44,8 +44,8 @@ react-templates是一套基于react&react-native技术栈实现的前端模版�
 <img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/31585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/41585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/51585789781_.pic.jpg" width="30%">
 
 ## 未来计划
-1、开发配套脚手架，简化初始化工作
-2、增加使用typescript语言的模版
+1. 开发配套脚手架，简化初始化工作(进行中)
+2. 增加使用typescript语言的模版
 ...
 
 ## 作者
