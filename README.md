@@ -66,17 +66,35 @@
 ## 使用方式
 
 ```
-下载项目
+1、下载项目
 git clone -b native-drawer https://github.com/SunXingZ/react-templates.git projectName
 
-安装依赖
+2、安装依赖
 cd projectName 
 yarn install
 
-启动项目
+3、(可选)重命名项目 newName 项目名称 bundleIdentifier 包名(android)
+npx react-native-rename <newName> -b <bundleIdentifier>
+
+4、启动项目
 yarn run ios  // 初次运行需要先cd ios目录下执行一次pod install
 or
 yarn run android // 请确保已经按照react-native官方文档配置好安卓开发环境
+```
+
+## 常用命令
+
+```
+打包
+iOS => 使用Xcode打包
+android => cd android && ./gradlew assembleRelease // 需要提前配置签名文件
+
+生成bundle文件 bundle-output 和 assets-dest的输出目录需要提前创建
+iOS => react-native bundle --entry-file index.js --bundle-output bundle/ios/main.jsbundle --platform ios --assets-dest bundle/ios --dev false --reset-cache true
+android => react-native bundle --entry-file index.js --bundle-output bundle/android/index.android.bundle --platform android --assets-dest bundle/android --dev false --reset-cache true
+
+检查iOS工程是否包含idfa
+cd ios && grep -r advertisingIdentifier .
 ```
 
 ## 作者
