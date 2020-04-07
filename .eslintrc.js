@@ -19,8 +19,9 @@ module.exports = {
 		},
 		sourceType: 'module'
 	},
-	plugins: ['react', 'react-native', 'flowtype', 'prettier'],
+	plugins: ['react', 'react-native', 'react-hooks', 'flowtype', 'prettier'],
 	rules: {
+		'react-hooks/rules-of-hooks': 'error',
 		'prettier/prettier': 'error'
 	}
 };
