@@ -46,6 +46,7 @@ react-templates是一套基于react&react-native技术栈实现的前端模版�
 ## 未来计划
 1. 开发配套脚手架，简化初始化工作(进行中)
 2. 增加使用typescript语言的模版
+3. 增加基于next.js的服务端渲染的模版项目
 ...
 
 ## 作者
