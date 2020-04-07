@@ -1,5 +1,3 @@
-import AppRoutes from "./router";
+import AppRoutes from './router';
 
-export {
-  AppRoutes
-}
+export { AppRoutes };

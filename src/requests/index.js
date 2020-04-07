@@ -1,5 +1,3 @@
-import * as Req from "./http";
+import * as Req from './http';
 
-export {
-  Req
-}
+export { Req };
