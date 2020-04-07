@@ -13,14 +13,19 @@ react-templates是一套基于react&react-native技术栈实现的前端模版�
 
 ## 分支说明
 
-### 一、[admin分支(建设中)](https://github.com/SunXingZ/react-templates/tree/admin)
+### 一、[native-bottom-tabs分支](https://github.com/SunXingZ/react-templates/tree/native-bottom-tabs)
 
-分支介绍：基于react、react-router-dom、redux、antd、axios等技术栈实现的管理系统模版项目
+分支介绍：基于react-native、react-native-elements、react-navigation、redux、axios等技术栈实现的底部tabs布局的APP模版项目
 
+模版预览：
+<img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/31585803617_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/41585803618_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/51585803618_.pic.jpg" width="30%">
 
-### 二、[single-spa-admin分支(研究中)](https://github.com/SunXingZ/react-templates/tree/single-spa-admin)
+### 二、[native-drawer分支](https://github.com/SunXingZ/react-templates/tree/native-drawer)
 
-分支介绍：在admin分支的基础上加入了single-spa实现的微前端架构的管理系统模版项目
+分支介绍：基于react-native、react-native-elements、react-navigation、redux、axios等技术栈实现的抽屉式布局的APP模版项目
+
+模版预览：
+<img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/31585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/41585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/51585789781_.pic.jpg" width="30%">
 
 ### 三、[webapp分支](https://github.com/SunXingZ/react-templates/tree/webapp)
 
@@ -29,19 +34,14 @@ react-templates是一套基于react&react-native技术栈实现的前端模版�
 模版预览：
 <img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/home.png" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/mine.png" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/login.png" width="30%">
 
-### 四、[native-bottom-tabs分支](https://github.com/SunXingZ/react-templates/tree/native-bottom-tabs)
+### 四、[admin分支(建设中)](https://github.com/SunXingZ/react-templates/tree/admin)
 
-分支介绍：基于react-native、react-native-elements、react-navigation、redux、axios等技术栈实现的底部tabs布局的APP模版项目
+分支介绍：基于react、react-router-dom、redux、antd、axios等技术栈实现的管理系统模版项目
 
-模版预览：
-<img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/31585803617_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/41585803618_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/51585803618_.pic.jpg" width="30%">
 
-### 五、[native-drawer分支](https://github.com/SunXingZ/react-templates/tree/native-drawer)
+### 五、[single-spa-admin分支(研究中)](https://github.com/SunXingZ/react-templates/tree/single-spa-admin)
 
-分支介绍：基于react-native、react-native-elements、react-navigation、redux、axios等技术栈实现的抽屉式布局的APP模版项目
-
-模版预览：
-<img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/31585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/41585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/51585789781_.pic.jpg" width="30%">
+分支介绍：在admin分支的基础上加入了single-spa实现的微前端架构的管理系统模版项目
 
 ## 未来计划
 1. 开发配套脚手架，简化初始化工作(进行中)
