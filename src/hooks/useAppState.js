@@ -1,25 +1,24 @@
 import { useEffect, useState } from 'react';
-import { AppState } from "react-native";
+import { AppState } from 'react-native';
 
 const useAppState = () => {
-  const [state, setState] = useState(AppState.currentState);
-  let isMount = true;
+	const [state, setState] = useState(AppState.currentState);
+	let isMount = true;
 
-  useEffect(() => {
+	useEffect(() => {
+		const handleAppStateChange = (nextAppState) => {
+			isMount && setState(nextAppState);
+		};
 
-    const handleAppStateChange = (nextAppState) => {
-      isMount && setState(nextAppState);
-    }
+		AppState.addEventListener('change', handleAppStateChange);
 
-    AppState.addEventListener("change", handleAppStateChange);
-    
-    return () => {
-      isMount = false;
-      AppState.removeEventListener("change", handleAppStateChange);
-    }
-  }, []);
+		return () => {
+			isMount = false;
+			AppState.removeEventListener('change', handleAppStateChange);
+		};
+	}, []);
 
-  return state;
-}
+	return state;
+};
 
 export default useAppState;
