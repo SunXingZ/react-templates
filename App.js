@@ -7,17 +7,15 @@
  */
 
 import React from 'react';
-import {
-  StyleSheet
-} from 'react-native';
-import { AppRouter, AppTheme } from "./src/configs";
-import { ThemeProvider } from 'react-native-elements';
+import {StyleSheet} from 'react-native';
+import {AppRouter, AppTheme} from './src/configs';
+import {ThemeProvider} from 'react-native-elements';
 
 const App = () => {
   return (
     <ThemeProvider theme={AppTheme}>
       <AppRouter
-        // onStateChange={(state) => {}}
+      // onStateChange={(state) => {}}
       />
     </ThemeProvider>
   );

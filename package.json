@@ -8,7 +8,14 @@
     "start": "react-native start",
     "test": "jest",
     "jetify": "npx jetify",
-    "lint": "eslint ."
+    "lint": "eslint ./src/**/*.js --fix",
+    "prettier": "prettier --write ./src/**/*.js",
+    "prettier-watch": "onchange './src/**/*.js' -- prettier --write {{changed}}"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.8.1",
@@ -44,12 +51,21 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/runtime": "^7.9.2",
-    "@react-native-community/eslint-config": "^1.0.0",
+    "babel-eslint": "^10.1.0",
     "babel-jest": "^25.2.4",
     "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-flowtype": "^4.7.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-native": "^3.8.1",
+    "husky": "^4.2.3",
     "jest": "^25.2.4",
+    "lint-staged": "^10.1.2",
     "metro-react-native-babel-preset": "^0.59.0",
     "mockjs": "^1.1.0",
+    "prettier": "^2.0.4",
+    "pretty-quick": "^2.0.1",
     "react-test-renderer": "16.9.0"
   },
   "jest": {
