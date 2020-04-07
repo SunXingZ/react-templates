@@ -8,9 +8,9 @@
 		"start": "react-native start",
 		"test": "jest",
 		"jetify": "npx jetify",
-		"lint": "eslint ./src/**/*.js --fix",
-		"prettier": "prettier --write ./src/**/*.js",
-		"prettier-watch": "onchange './src/**/*.js' -- prettier --write {{changed}}"
+		"lint": "eslint ./src --fix",
+		"prettier": "prettier --write ./src",
+		"prettier-watch": "onchange './src' -- prettier --write {{changed}}"
 	},
 	"husky": {
 		"hooks": {
