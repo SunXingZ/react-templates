@@ -8,7 +8,7 @@
 
 ## 模版预览
 
-<img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/31585803617_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/41585803618_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/51585803618_.pic.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/bottom_tabs_preview/31585803617_.pic.jpg" width="30%"><img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/bottom_tabs_preview/41585803618_.pic.jpg" width="30%"><img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/bottom_tabs_preview/51585803618_.pic.jpg" width="30%">
 
 ## 项目结构
 
