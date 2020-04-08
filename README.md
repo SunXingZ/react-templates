@@ -5,7 +5,7 @@
 > 这是一个使用react + react-router-dom + antd mobile + redux + axios开发的移动端webapp模版项目
 
 ## 模版预览
-<img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/home.png" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/mine.png" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/login.png" width="30%">
+<img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/webapp_preview/home.png" width="30%"><img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/webapp_preview/mine.png" width="30%"><img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/webapp_preview/login.png" width="30%">
 
 ## 项目结构
 
