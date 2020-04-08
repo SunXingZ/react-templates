@@ -7,7 +7,7 @@
 
 ## 模版预览
 
-<img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/31585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/41585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/51585789781_.pic.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/drawer_preview/31585750245_.pic.jpg" width="30%"><img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/drawer_preview/41585750245_.pic.jpg" width="30%"><img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/drawer_preview/51585789781_.pic.jpg" width="30%">
 
 ## 项目结构
 
