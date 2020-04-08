@@ -18,21 +18,21 @@ react-templates是一套基于react&react-native技术栈实现的前端模版�
 分支介绍：基于react-native、react-native-elements、react-navigation、redux、axios等技术栈实现的底部tabs布局的APP模版项目
 
 模版预览：
-<img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/31585803617_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/41585803618_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/bottom_tabs_preview/51585803618_.pic.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/bottom_tabs_preview/31585803617_.pic.jpg" width="30%"><img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/bottom_tabs_preview/41585803618_.pic.jpg" width="30%"><img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/bottom_tabs_preview/51585803618_.pic.jpg" width="30%">
 
 ### 二、[native-drawer分支](https://github.com/SunXingZ/react-templates/tree/native-drawer)
 
 分支介绍：基于react-native、react-native-elements、react-navigation、redux、axios等技术栈实现的抽屉式布局的APP模版项目
 
 模版预览：
-<img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/31585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/41585750245_.pic.jpg" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/drawer_preview/51585789781_.pic.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/drawer_preview/31585750245_.pic.jpg" width="30%"><img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/drawer_preview/41585750245_.pic.jpg" width="30%"><img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/drawer_preview/51585789781_.pic.jpg" width="30%">
 
 ### 三、[webapp分支](https://github.com/SunXingZ/react-templates/tree/webapp)
 
 分支介绍：基于react、react-router-dom、redux、antd-mobile、axios等技术栈实现的移动web端模版项目
 
 模版预览：
-<img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/home.png" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/mine.png" width="30%"><img src="https://github.com/SunXingZ/react-templates/blob/master/webapp_preview/login.png" width="30%">
+<img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/webapp_preview/home.png" width="30%"><img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/webapp_preview/mine.png" width="30%"><img src="https://raw.githubusercontent.com/SunXingZ/react-templates/master/webapp_preview/login.png" width="30%">
 
 ### 四、[admin分支(建设中)](https://github.com/SunXingZ/react-templates/tree/admin)
 
